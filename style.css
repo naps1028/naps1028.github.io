@@ -1,15 +1,25 @@
 /* nice colors: https://colorhunt.co/palettes/vintage */
 
+@font-face {
+	
+	font-family: Terminus;
+	src:url("Terminus.ttf");
+	
+}
+
 * {
+	
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace; /* text font*/
+  font-family: Terminus;
+  font-size: 1.0em;
+ 
 }
 
 body {
   /* background color of the whole page */
-  background-color: #080808;
+  background-color: ##1a1a1a;
 
   /* prevents text select */
   -webkit-user-select: none; /* Safari */
@@ -36,7 +46,7 @@ a {
 
 a:hover {
   /* color shown when user hovers on a link */
-  color: #d36b00;
+  color: #b380ec;
 }
 
 .main {
@@ -48,7 +58,7 @@ a:hover {
 
 .main-container {
   /* main container that encompasses all of the categories */
-  width: 80vw;
+  width: 100vw;
   min-width: 800px;
   display: flex;
   justify-content: center;
@@ -57,21 +67,22 @@ a:hover {
 
 .link-container {
   /* container used by each individual category */
-  margin: 0 26px;
+  margin: 0 90px;
 }
 
 .title {
   /* category title */
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 0.15rem;
+  display: block;
+  margin: 0 0 .1em -2em;
+  font-weight: normal;
+  margin-bottom: 0.95rem;
 }
 
 .dateTime {
   /* displays date and time at top right corner */
   color: #f7f7f7;
   position: fixed;
-  font-size: 18px;
+  font-size: 14x;
   top: 1.3rem;
   right: 2rem;
 }
