@@ -78,15 +78,6 @@ a:hover {
   margin-bottom: 0.95rem;
 }
 
-.dateTime {
-  /* displays date and time at top right corner */
-  color: #f7f7f7;
-  position: fixed;
-  font-size: 14x;
-  top: 1.3rem;
-  right: 2rem;
-}
-
 .image {
   /* displays image at bottom right corner */
   position: fixed;
