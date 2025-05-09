@@ -19,7 +19,7 @@
 
 body {
   /* background color of the whole page */
-  background-color: #1a1a1a;
+  background-color: #1a1a1a !important;
 
   /* prevents text select */
   -webkit-user-select: none; /* Safari */
@@ -50,6 +50,7 @@ a:hover {
 }
 
 .main {
+  background-color: #1a1a1a !importan;
   height: 100vh;
   width: 100vw;
   display: flex;
